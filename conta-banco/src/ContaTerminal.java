@@ -1,6 +1,15 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * <h1>Conta Terminal</h1>
+ * <p>Este projeto em Java simula a criação de uma conta bancária por meio do terminal, onde o usuário informa seus dados e recebe uma mensagem de confirmação com as informações inseridas.</p>
+ * <br>
+ * @author Suzy Cruz
+ * @version 1.0
+ * @since 15/02/2025
+ */
+
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
